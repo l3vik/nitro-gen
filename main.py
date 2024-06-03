@@ -1,5 +1,6 @@
 import random
 import string
+import time
 from colorama import init, Fore
 
 init(autoreset=True)
@@ -27,4 +28,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    slep(1000)
 
